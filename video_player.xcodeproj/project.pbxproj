@@ -16,7 +16,7 @@
 		84E892212990DC840097E222 /* video_playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E892202990DC840097E222 /* video_playerTests.swift */; };
 		84E8922B2990DC840097E222 /* video_playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8922A2990DC840097E222 /* video_playerUITests.swift */; };
 		84E8922D2990DC840097E222 /* video_playerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8922C2990DC840097E222 /* video_playerUITestsLaunchTests.swift */; };
-		84E8923A2990DE850097E222 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E892392990DE850097E222 /* main.storyboard */; };
+		84E8923C2990EA7B0097E222 /* sample-5s.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84E8923B2990EA7B0097E222 /* sample-5s.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		84E892262990DC840097E222 /* video_playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = video_playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E8922A2990DC840097E222 /* video_playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_playerUITests.swift; sourceTree = "<group>"; };
 		84E8922C2990DC840097E222 /* video_playerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video_playerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		84E892392990DE850097E222 /* main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		84E8923B2990EA7B0097E222 /* sample-5s.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sample-5s.mp4"; path = "../../../../../Downloads/sample-5s.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +101,7 @@
 		84E892082990DC830097E222 /* video_player */ = {
 			isa = PBXGroup;
 			children = (
+				84E8923B2990EA7B0097E222 /* sample-5s.mp4 */,
 				84E892092990DC830097E222 /* AppDelegate.swift */,
 				84E8920B2990DC830097E222 /* SceneDelegate.swift */,
 				84E8920D2990DC830097E222 /* ViewController.swift */,
@@ -108,7 +109,6 @@
 				84E892122990DC840097E222 /* Assets.xcassets */,
 				84E892142990DC840097E222 /* LaunchScreen.storyboard */,
 				84E892172990DC840097E222 /* Info.plist */,
-				84E892392990DE850097E222 /* main.storyboard */,
 			);
 			path = video_player;
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 				84E892162990DC840097E222 /* LaunchScreen.storyboard in Resources */,
 				84E892132990DC840097E222 /* Assets.xcassets in Resources */,
 				84E892112990DC830097E222 /* Main.storyboard in Resources */,
-				84E8923A2990DE850097E222 /* main.storyboard in Resources */,
+				84E8923C2990EA7B0097E222 /* sample-5s.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
