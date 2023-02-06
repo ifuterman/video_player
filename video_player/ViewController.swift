@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
@@ -13,7 +15,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    private func findVideo(){
+        guard let path = Bundle.main.path(forResource: "sample-5s", ofType: "m4v", inDirectory: <#T##String#>)
+        else {
+            debugPrint("video.m4v not found")
+            return
+        }
+    }
 
 }
 
